@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 2.7'
     ],
     keywords='Google Apps, Google Mail, Google Drive.',
-    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    packages=find_packages(),
     install_requires=['google-api-python-client==1.4.2', 'pycrypto==2.6.1'],
     extras_require={},
     package_data={},

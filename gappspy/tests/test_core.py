@@ -1,4 +1,4 @@
-from services.core import GoogleService, GoogleCredentials
+from gappspy.core import GoogleService, GoogleCredentials
 from mock import patch, Mock, MagicMock, mock_open
 import apiclient
 from oauth2client.client import SignedJwtAssertionCredentials

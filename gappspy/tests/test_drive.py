@@ -1,6 +1,6 @@
 from mock import patch, Mock, MagicMock
-from services.core import GoogleCredentials, GoogleService
-from services.drive import DriveService
+from gappspy.core import GoogleCredentials, GoogleService
+from gappspy.drive import DriveService
 from email.mime.text import MIMEText
 from apiclient.http import MediaFileUpload
 import base64

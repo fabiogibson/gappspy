@@ -1,6 +1,6 @@
 from mock import patch, Mock, MagicMock
-from services.core import GoogleCredentials, GoogleService
-from services.mail import GmailService, GmailMessage
+from gappspy.core import GoogleCredentials, GoogleService
+from gappspy.mail import GmailService, GmailMessage
 from email.mime.text import MIMEText
 import base64
 
