@@ -25,7 +25,7 @@ setup(
     ],
     keywords='Google Apps, Google Mail, Google Drive.',
     packages=find_packages(),
-    install_requires=['google-api-python-client==1.4.2', 'pycrypto==2.6.1'],
+    install_requires=['google-api-python-client==1.4.2', 'pycrypto==2.6.1', 'pyopenssl'],
     extras_require={},
     package_data={},
     data_files=[],
