@@ -16,11 +16,11 @@ class GoogleCredentials(object):
         """
 
         """
-        self.auth_url = 'https://www.googleapis.com/auth/%s'
+        self.auth_url = 'https://www.googleapis.com/auth/%s' % permission
         self.impersonate_as = impersonate_as
         self.service_account = service_account
         self.private_key = self._read_private_key(keyfile)
-        self.credentials = SignedJwtAssertionCredentials(self.service_account, self.private_key, self.auth_url % permission,
+        self.credentials = SignedJwtAssertionCredentials(self.service_account, self.private_key, self.auth_url,
                                                          sub=self.impersonate_as)
         self.authorization = None
 
